@@ -1,0 +1,10 @@
+<ion-view view-title="Career">
+  <ion-content>
+    <h1>Here are some occupations for {{career.title}}</h1>
+    <ion-list>
+      <a class="item" ng-repeat="occupation in career.occupations" href = "#/app/playlist/{{career.id}}">
+        {{occupation}}
+      </a>
+    </ion-list>
+  </ion-content>
+</ion-view>
