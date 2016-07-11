@@ -68,11 +68,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-    .state('app.career3', {
+    .state('app.career', {
       url: '/playlist/:careerId',
       views: {
         'menuContent': {
-          templateUrl: 'templates/career3.html',
+          templateUrl: 'templates/career.html',
           controller: 'CareerCtrl'
         }
       }

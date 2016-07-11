@@ -50,7 +50,7 @@ angular.module('starter.controllers', [])
     { title: 'Business', id: 5 ,  image: 'img/business.jpg', occupations: ["Sales Associate", "Youtuber"]},
     { title: 'Agriculture', id: 6 ,  image: 'img/agriculture.png', occupations:["Farmer", "Urban gardener"]},
     { title: 'Communication', id: 7 ,  image: 'img/communication.jpeg', occupations:["Radio Host", "UN representative"]},
-    { title: 'Engineering', id: 8 ,  image: 'img/engineering.jpg', occupations:["Software Engineer", "Bioengineer","https://www.youtube.com/watch?v=TB_a-nvJL2o"]},
+    { title: 'Engineering', id: 8 ,  image: 'img/engineering.jpg', occupations:["Software Engineer", "Bioengineer"]},
     { title: 'Media & Entertainment', id: 9 ,  image: 'img/media.png', occupations:["Actor", "Clown"]},
     { title: 'Civil Service', id: 10 ,  image: 'img/civil.png', occupations:["Social Worker", "Mayor"]},
     { title: 'Arts & Literature', id: 11 ,  image: 'img/arts.png', occupations:["Author", "Artist"]}
