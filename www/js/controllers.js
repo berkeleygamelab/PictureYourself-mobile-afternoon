@@ -70,6 +70,16 @@ angular.module('starter.controllers', [])
     { title: 'Civil Service', id: 10 ,  image: 'img/civil.png', occupations:["Social Worker", "Mayor"]},
     { title: 'Arts & Literature', id: 11 ,  image: 'img/arts.png', occupations:["Author", "Artist"]}
   ]
+
+  for (var i = 0; i < $scope.careers.length; i++){
+    var occupations = $scope.careers[i].occupations;
+
+    for (var j = 0; j < occupations.length; j++) {
+      if ($stateParams.careerName == occupations[j]) {
+        $scope.occupation = occupations[j];
+      }
+    }
+  }
 }
 )
 
