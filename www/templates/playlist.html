@@ -2,7 +2,7 @@
   <ion-content>
     <h1>Here are some occupations for {{career.title}}</h1>
     <ion-list>
-      <a class="item" ng-repeat="occupation in career.occupations" href = "#/app/playlist/{{career.id}}">
+      <a class="item" ng-repeat="occupation in career.occupations" href = "#/app/playlists/{{career.id}}/career/{{occupation}}">
         {{occupation}}
       </a>
     </ion-list>

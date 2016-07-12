@@ -69,7 +69,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
     .state('app.career', {
-      url: '/playlist/:careerId',
+      url: '/playlists/:playlistId/career/:careerName',
       views: {
         'menuContent': {
           templateUrl: 'templates/career.html',
