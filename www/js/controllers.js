@@ -65,7 +65,10 @@ angular.module('starter.controllers', [])
     { title: 'Business', id: 5 ,  image: 'img/business.jpg', occupations: ["Sales Associate", "Youtuber"]},
     { title: 'Agriculture', id: 6 ,  image: 'img/agriculture.png', occupations:["Farmer", "Urban gardener"]},
     { title: 'Communication', id: 7 ,  image: 'img/communication.jpeg', occupations:["Radio Host", "UN representative"]},
-    { title: 'Engineering', id: 8 ,  image: 'img/engineering.jpeg', occupations:[{name: "Bill Nye", id: 1, title: "Mechanical Engineer", image: "img/billnye.png", biography: "", video: "" , accomplishments: }, "Bioengineer"]},
+    { title: 'Engineering', id: 8 ,  image: 'img/engineering.jpeg', occupations:[{name: "Bill Nye", id: 1, title: "Mechanical Engineer",
+    image: "img/billnye.jpeg", biography: "Bill Nye had a long professional history in science before switching to educational television. Nye began his career in Seattle at Boeing where he starred in training films and developed a hydraulic pressure resonance suppressor for the 747. Later, he worked as a consultant in the aeronautics industry.", video: "https://www.youtube.com/watch?v=54q6M48WxSs" ,
+    accomplishments: "Nye began his professional entertainment career as a writer/actor on a local sketch comedy television show in Seattle, Washington, called Almost Live!. He remained interested in science education through entertainment and became famous for his show Bill Nye the Science Guy. "},
+    {name: "Dmitri Skjorshammer", id: 2, title: "Software Engineer", image: "img/dmitri.jpeg", biography: "Dmitri Skjorshammer has a professional career in engineering, and is currently spending time wandering the planet.", accomplishments: "CEO of Startup U"}]},
     { title: 'Media & Entertainment', id: 9 ,  image: 'img/media.png', occupations:["Actor", "Clown"]},
     { title: 'Civil Service', id: 10 ,  image: 'img/civil.png', occupations:["Social Worker", "Mayor"]},
     { title: 'Arts & Literature', id: 11 ,  image: 'img/arts.png', occupations:["Author", "Artist"]}
