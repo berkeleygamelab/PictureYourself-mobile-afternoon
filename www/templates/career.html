@@ -1,7 +1,8 @@
 <ion-view view-title="Career">
-  <ion-content>
-    <div class="list card">
+  <ion-content class = "card-background-page">
+    <body>
 
+    <div class="list card">
       <div class="item item-avatar">
         <img src="{{occupation.image}}">
       <h2>{{occupation.name}}</h2>
@@ -10,16 +11,13 @@
     </div>
 
   <div class="item item-body">
-    <img height="150" width="150" src="{{occupation.image}}">
+    <img height="100" width="100" src="{{occupation.image}}">
     <p>{{occupation.bio}}</p>
     <p>{{occupation.accomplishments}}</p>
     <p>
-      <a href="#" class="subdued">{{occupation.video}}</a>
-
+      <a href="{{occupation.video}}" class="subdued">
+        <button class = "closing" onClick = "javascript:close_clip()"><img src="img/learnmore.png" <img height="50" width="50"/></button>
     </p>
   </div>
-
-</div>
-
-  </ion-content>
-</ion-view>
+</body>
+</ion-content>
